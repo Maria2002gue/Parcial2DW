@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css"> 
+
+    <title>Estudios Realizados</title>
+</head>
+<body>
+    <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Información Personal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="estudios.html">Estudios Realizados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proyectos.html">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lenguajes.html">Lenguajes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="areas.html">Áreas de Interés</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección de Estudios Realizados con Carrusel -->
+  <section class="container mt-5">
+    <h2>Estudios Realizados</h2>
+    
+    <!-- Carrusel Bootstrap -->
+<div id="carouselEstudios" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <!-- Item 1: Curso Front End en Alura Latam -->
+    <div class="carousel-item active">
+      <div class="product text-center">
+        <img src="imagen/alura.png" class="img-fluid rounded-top" alt="Imagen de Alura" style="max-height: 150px; object-fit: cover;"> 
+        <h3>Curso Front End en Alura Latam</h3>
+        <p>Durante este curso, abordé diversas formaciones que me permitieron desarrollar habilidades técnicas y lógicas esenciales para el desarrollo web. A través de proyectos prácticos, adquirí conocimientos en HTML, CSS y JavaScript, mejorando tanto la capacidad de resolver problemas como la creatividad en el diseño de interfaces.</p>
+      </div>
+    </div>
+
+        <!-- Item 2: Ingeniería Informática -->
+        <div class="carousel-item active">
+          <div class="product text-center">
+            <img src="imagen/images.jpg" class="img-fluid rounded-top" alt="Imagen de Alura" style="max-height: 150px; object-fit: cover;"> 
+            <h3>Ingeniería Informática</h3>
+            <p>La Ingeniería Informática me ha brindado una sólida formación teórica y práctica en diversas áreas clave de la tecnología. He adquirido competencias avanzadas en programación, bases de datos, redes, y sistemas operativos, así como una comprensión profunda de la arquitectura de software y hardware.</p>
+          
+          </div>
+        </div>
+
+        <!-- Item 3: Bootcamp Desarrollo Web Full Stack -->
+        <div class="carousel-item active">
+          <div class="product text-center">
+            <img src="imagen/programacion.png" class="img-fluid rounded-top" alt="Imagen de Alura" style="max-height: 150px; object-fit: cover;"> 
+            <h3>Bootcamp Desarrollo Web Full Stack</h3>
+            <p>El Bootcamp Desarrollo Web Full Stack profundiza en el diseño y desarrollo de aplicaciones web, abarcando la programación orientada a objetos, estructuras de datos, algoritmos, React, y técnicas avanzadas de implementación para aplicaciones dinámicas.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controles del Carrusel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselEstudios" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselEstudios" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>© 2024 Mi Portafolio - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
+
